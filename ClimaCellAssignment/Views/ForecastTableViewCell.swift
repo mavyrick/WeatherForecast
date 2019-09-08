@@ -16,7 +16,11 @@ class ForecastTableViewCell: UITableViewCell {
     @IBOutlet weak var precipitation: UILabel!
     @IBOutlet weak var precipitationProbability: UILabel!
     
-    var forecast: Forecast?
+    var forecast: Forecast? {
+        didSet{
+            updateUI()
+        }
+    }
     
     func updateUI() {
         
