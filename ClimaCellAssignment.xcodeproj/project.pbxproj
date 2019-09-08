@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A35CEE231D6BB800511623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A35CED231D6BB800511623 /* AppDelegate.swift */; };
+		35A35CF3231D6BB800511623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A35CF1231D6BB800511623 /* Main.storyboard */; };
+		35A35CF6231D6BB800511623 /* ClimaCellAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35A35CF4231D6BB800511623 /* ClimaCellAssignment.xcdatamodeld */; };
+		35A35CF8231D6BBC00511623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A35CF7231D6BBC00511623 /* Assets.xcassets */; };
+		35A35CFB231D6BBC00511623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A35CF9231D6BBC00511623 /* LaunchScreen.storyboard */; };
+		35A35D06231D6BBC00511623 /* ClimaCellAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A35D05231D6BBC00511623 /* ClimaCellAssignmentTests.swift */; };
+		35A35D11231D6BBC00511623 /* ClimaCellAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A35D10231D6BBC00511623 /* ClimaCellAssignmentUITests.swift */; };
+		35A35D22231D76DB00511623 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A35D21231D76DB00511623 /* Capital.swift */; };
+		35A35D67231F11A200511623 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A35D66231F11A200511623 /* HomeViewController.swift */; };
+		35BC20932320726100314253 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC20922320726100314253 /* ForecastTableViewCell.swift */; };
+		35C8CF3F232037FC004A30A5 /* CityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8CF3E232037FC004A30A5 /* CityDetailsViewController.swift */; };
+		35C8CF4123205A37004A30A5 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8CF4023205A37004A30A5 /* Forecast.swift */; };
+		35DB8D2B2324665F00985F3F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB8D2A2324665F00985F3F /* MapViewController.swift */; };
+		35E0F51B2321DBEA00270259 /* GetCapitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0F51A2321DBEA00270259 /* GetCapitalData.swift */; };
+		35E0F51D2322A29900270259 /* GetForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0F51C2322A29900270259 /* GetForecastData.swift */; };
+		35E0F51F2322ACA300270259 /* CapitalCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0F51E2322ACA300270259 /* CapitalCoordinates.swift */; };
+		35E0F5212322AD1400270259 /* GetCapitalCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0F5202322AD1400270259 /* GetCapitalCoordinates.swift */; };
+		CACD5DE14FFE4A280D7BE5B4 /* Pods_ClimaCellAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72AC06692B044CF6CC46A9 /* Pods_ClimaCellAssignmentUITests.framework */; };
+		D25276DBAA55C55D632EA8BE /* Pods_ClimaCellAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3896AE6E37C7D1F083FC0EA /* Pods_ClimaCellAssignment.framework */; };
+		FBEB923AFB1DA33AA37A50C8 /* Pods_ClimaCellAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807B73D127A2E09E692DFC02 /* Pods_ClimaCellAssignmentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35A35D02231D6BBC00511623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A35CE2231D6BB800511623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A35CE9231D6BB800511623;
+			remoteInfo = ClimaCellAssignment;
+		};
+		35A35D0D231D6BBC00511623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A35CE2231D6BB800511623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A35CE9231D6BB800511623;
+			remoteInfo = ClimaCellAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15DDBA3DB6D3DACA8F90D0B0 /* Pods-ClimaCellAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignmentUITests/Pods-ClimaCellAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22A6DC8C752F1F952391DFC7 /* Pods-ClimaCellAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignment.debug.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignment/Pods-ClimaCellAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		35A35CEA231D6BB800511623 /* ClimaCellAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaCellAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A35CED231D6BB800511623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35A35CF2231D6BB800511623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35A35CF5231D6BB800511623 /* ClimaCellAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimaCellAssignment.xcdatamodel; sourceTree = "<group>"; };
+		35A35CF7231D6BBC00511623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35A35CFA231D6BBC00511623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35A35CFC231D6BBC00511623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A35D01231D6BBC00511623 /* ClimaCellAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaCellAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A35D05231D6BBC00511623 /* ClimaCellAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaCellAssignmentTests.swift; sourceTree = "<group>"; };
+		35A35D07231D6BBC00511623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A35D0C231D6BBC00511623 /* ClimaCellAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaCellAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A35D10231D6BBC00511623 /* ClimaCellAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaCellAssignmentUITests.swift; sourceTree = "<group>"; };
+		35A35D12231D6BBC00511623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A35D21231D76DB00511623 /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		35A35D66231F11A200511623 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		35BC20922320726100314253 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		35C8CF3E232037FC004A30A5 /* CityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsViewController.swift; sourceTree = "<group>"; };
+		35C8CF4023205A37004A30A5 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		35DB8D2A2324665F00985F3F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		35E0F51A2321DBEA00270259 /* GetCapitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCapitalData.swift; sourceTree = "<group>"; };
+		35E0F51C2322A29900270259 /* GetForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetForecastData.swift; sourceTree = "<group>"; };
+		35E0F51E2322ACA300270259 /* CapitalCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCoordinates.swift; sourceTree = "<group>"; };
+		35E0F5202322AD1400270259 /* GetCapitalCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCapitalCoordinates.swift; sourceTree = "<group>"; };
+		5CF6B91A031E160EC6D821C0 /* Pods-ClimaCellAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignmentTests/Pods-ClimaCellAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5D4A357089C194A91B7B17 /* Pods-ClimaCellAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignment.release.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignment/Pods-ClimaCellAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		807B73D127A2E09E692DFC02 /* Pods_ClimaCellAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimaCellAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C815D63E8AA2DFD0653C58 /* Pods-ClimaCellAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignmentTests/Pods-ClimaCellAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2DF23C54A9B981768D6F6EB /* Pods-ClimaCellAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaCellAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimaCellAssignmentUITests/Pods-ClimaCellAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3896AE6E37C7D1F083FC0EA /* Pods_ClimaCellAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimaCellAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF72AC06692B044CF6CC46A9 /* Pods_ClimaCellAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimaCellAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35A35CE7231D6BB800511623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25276DBAA55C55D632EA8BE /* Pods_ClimaCellAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35CFE231D6BBC00511623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEB923AFB1DA33AA37A50C8 /* Pods_ClimaCellAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35D09231D6BBC00511623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD5DE14FFE4A280D7BE5B4 /* Pods_ClimaCellAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A35CE1231D6BB800511623 = {
+			isa = PBXGroup;
+			children = (
+				35A35CEC231D6BB800511623 /* ClimaCellAssignment */,
+				35A35D04231D6BBC00511623 /* ClimaCellAssignmentTests */,
+				35A35D0F231D6BBC00511623 /* ClimaCellAssignmentUITests */,
+				35A35CEB231D6BB800511623 /* Products */,
+				9402E40121F9112734DD5E3C /* Pods */,
+				802891C6CF4A4E3B3F2BDDBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35A35CEB231D6BB800511623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35A35CEA231D6BB800511623 /* ClimaCellAssignment.app */,
+				35A35D01231D6BBC00511623 /* ClimaCellAssignmentTests.xctest */,
+				35A35D0C231D6BBC00511623 /* ClimaCellAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35A35CEC231D6BB800511623 /* ClimaCellAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				35A35D1E231D6C6400511623 /* Models */,
+				35A35D1F231D6C6900511623 /* Views */,
+				35A35D20231D6C7100511623 /* Controllers */,
+				35E0F5192321DBC600270259 /* Services */,
+				35A35CED231D6BB800511623 /* AppDelegate.swift */,
+				35A35CF1231D6BB800511623 /* Main.storyboard */,
+				35A35CF7231D6BBC00511623 /* Assets.xcassets */,
+				35A35CF9231D6BBC00511623 /* LaunchScreen.storyboard */,
+				35A35CFC231D6BBC00511623 /* Info.plist */,
+				35A35CF4231D6BB800511623 /* ClimaCellAssignment.xcdatamodeld */,
+			);
+			path = ClimaCellAssignment;
+			sourceTree = "<group>";
+		};
+		35A35D04231D6BBC00511623 /* ClimaCellAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				35A35D05231D6BBC00511623 /* ClimaCellAssignmentTests.swift */,
+				35A35D07231D6BBC00511623 /* Info.plist */,
+			);
+			path = ClimaCellAssignmentTests;
+			sourceTree = "<group>";
+		};
+		35A35D0F231D6BBC00511623 /* ClimaCellAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35A35D10231D6BBC00511623 /* ClimaCellAssignmentUITests.swift */,
+				35A35D12231D6BBC00511623 /* Info.plist */,
+			);
+			path = ClimaCellAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		35A35D1E231D6C6400511623 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35A35D21231D76DB00511623 /* Capital.swift */,
+				35E0F51E2322ACA300270259 /* CapitalCoordinates.swift */,
+				35C8CF4023205A37004A30A5 /* Forecast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35A35D1F231D6C6900511623 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35BC20922320726100314253 /* ForecastTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35A35D20231D6C7100511623 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35A35D66231F11A200511623 /* HomeViewController.swift */,
+				35DB8D2A2324665F00985F3F /* MapViewController.swift */,
+				35C8CF3E232037FC004A30A5 /* CityDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		35E0F5192321DBC600270259 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35E0F51A2321DBEA00270259 /* GetCapitalData.swift */,
+				35E0F5202322AD1400270259 /* GetCapitalCoordinates.swift */,
+				35E0F51C2322A29900270259 /* GetForecastData.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		802891C6CF4A4E3B3F2BDDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3896AE6E37C7D1F083FC0EA /* Pods_ClimaCellAssignment.framework */,
+				807B73D127A2E09E692DFC02 /* Pods_ClimaCellAssignmentTests.framework */,
+				EF72AC06692B044CF6CC46A9 /* Pods_ClimaCellAssignmentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9402E40121F9112734DD5E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22A6DC8C752F1F952391DFC7 /* Pods-ClimaCellAssignment.debug.xcconfig */,
+				5D5D4A357089C194A91B7B17 /* Pods-ClimaCellAssignment.release.xcconfig */,
+				5CF6B91A031E160EC6D821C0 /* Pods-ClimaCellAssignmentTests.debug.xcconfig */,
+				80C815D63E8AA2DFD0653C58 /* Pods-ClimaCellAssignmentTests.release.xcconfig */,
+				B2DF23C54A9B981768D6F6EB /* Pods-ClimaCellAssignmentUITests.debug.xcconfig */,
+				15DDBA3DB6D3DACA8F90D0B0 /* Pods-ClimaCellAssignmentUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35A35CE9231D6BB800511623 /* ClimaCellAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A35D15231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignment" */;
+			buildPhases = (
+				7381393D4B8DA6FDD3235CD1 /* [CP] Check Pods Manifest.lock */,
+				35A35CE6231D6BB800511623 /* Sources */,
+				35A35CE7231D6BB800511623 /* Frameworks */,
+				35A35CE8231D6BB800511623 /* Resources */,
+				6741B9AA5D231AC1B82C6F9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimaCellAssignment;
+			productName = ClimaCellAssignment;
+			productReference = 35A35CEA231D6BB800511623 /* ClimaCellAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35A35D00231D6BBC00511623 /* ClimaCellAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A35D18231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignmentTests" */;
+			buildPhases = (
+				783F181E09226C397AE2FE03 /* [CP] Check Pods Manifest.lock */,
+				35A35CFD231D6BBC00511623 /* Sources */,
+				35A35CFE231D6BBC00511623 /* Frameworks */,
+				35A35CFF231D6BBC00511623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A35D03231D6BBC00511623 /* PBXTargetDependency */,
+			);
+			name = ClimaCellAssignmentTests;
+			productName = ClimaCellAssignmentTests;
+			productReference = 35A35D01231D6BBC00511623 /* ClimaCellAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35A35D0B231D6BBC00511623 /* ClimaCellAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A35D1B231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignmentUITests" */;
+			buildPhases = (
+				078EEC00DD378157BFAE88A9 /* [CP] Check Pods Manifest.lock */,
+				35A35D08231D6BBC00511623 /* Sources */,
+				35A35D09231D6BBC00511623 /* Frameworks */,
+				35A35D0A231D6BBC00511623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A35D0E231D6BBC00511623 /* PBXTargetDependency */,
+			);
+			name = ClimaCellAssignmentUITests;
+			productName = ClimaCellAssignmentUITests;
+			productReference = 35A35D0C231D6BBC00511623 /* ClimaCellAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35A35CE2231D6BB800511623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Josh Sorokin";
+				TargetAttributes = {
+					35A35CE9231D6BB800511623 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					35A35D00231D6BBC00511623 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 35A35CE9231D6BB800511623;
+					};
+					35A35D0B231D6BBC00511623 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 35A35CE9231D6BB800511623;
+					};
+				};
+			};
+			buildConfigurationList = 35A35CE5231D6BB800511623 /* Build configuration list for PBXProject "ClimaCellAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35A35CE1231D6BB800511623;
+			productRefGroup = 35A35CEB231D6BB800511623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35A35CE9231D6BB800511623 /* ClimaCellAssignment */,
+				35A35D00231D6BBC00511623 /* ClimaCellAssignmentTests */,
+				35A35D0B231D6BBC00511623 /* ClimaCellAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35A35CE8231D6BB800511623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A35CFB231D6BBC00511623 /* LaunchScreen.storyboard in Resources */,
+				35A35CF8231D6BBC00511623 /* Assets.xcassets in Resources */,
+				35A35CF3231D6BB800511623 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35CFF231D6BBC00511623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35D0A231D6BBC00511623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078EEC00DD378157BFAE88A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimaCellAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6741B9AA5D231AC1B82C6F9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimaCellAssignment/Pods-ClimaCellAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimaCellAssignment/Pods-ClimaCellAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimaCellAssignment/Pods-ClimaCellAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7381393D4B8DA6FDD3235CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimaCellAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783F181E09226C397AE2FE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimaCellAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35A35CE6231D6BB800511623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E0F51D2322A29900270259 /* GetForecastData.swift in Sources */,
+				35C8CF3F232037FC004A30A5 /* CityDetailsViewController.swift in Sources */,
+				35E0F51F2322ACA300270259 /* CapitalCoordinates.swift in Sources */,
+				35A35CEE231D6BB800511623 /* AppDelegate.swift in Sources */,
+				35C8CF4123205A37004A30A5 /* Forecast.swift in Sources */,
+				35BC20932320726100314253 /* ForecastTableViewCell.swift in Sources */,
+				35DB8D2B2324665F00985F3F /* MapViewController.swift in Sources */,
+				35A35D22231D76DB00511623 /* Capital.swift in Sources */,
+				35A35D67231F11A200511623 /* HomeViewController.swift in Sources */,
+				35E0F51B2321DBEA00270259 /* GetCapitalData.swift in Sources */,
+				35A35CF6231D6BB800511623 /* ClimaCellAssignment.xcdatamodeld in Sources */,
+				35E0F5212322AD1400270259 /* GetCapitalCoordinates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35CFD231D6BBC00511623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A35D06231D6BBC00511623 /* ClimaCellAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A35D08231D6BBC00511623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A35D11231D6BBC00511623 /* ClimaCellAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35A35D03231D6BBC00511623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A35CE9231D6BB800511623 /* ClimaCellAssignment */;
+			targetProxy = 35A35D02231D6BBC00511623 /* PBXContainerItemProxy */;
+		};
+		35A35D0E231D6BBC00511623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A35CE9231D6BB800511623 /* ClimaCellAssignment */;
+			targetProxy = 35A35D0D231D6BBC00511623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35A35CF1231D6BB800511623 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A35CF2231D6BB800511623 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35A35CF9231D6BBC00511623 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A35CFA231D6BBC00511623 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35A35D13231D6BBC00511623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35A35D14231D6BBC00511623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35A35D16231D6BBC00511623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A6DC8C752F1F952391DFC7 /* Pods-ClimaCellAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35A35D17231D6BBC00511623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5D4A357089C194A91B7B17 /* Pods-ClimaCellAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35A35D19231D6BBC00511623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF6B91A031E160EC6D821C0 /* Pods-ClimaCellAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimaCellAssignment.app/ClimaCellAssignment";
+			};
+			name = Debug;
+		};
+		35A35D1A231D6BBC00511623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C815D63E8AA2DFD0653C58 /* Pods-ClimaCellAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimaCellAssignment.app/ClimaCellAssignment";
+			};
+			name = Release;
+		};
+		35A35D1C231D6BBC00511623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DF23C54A9B981768D6F6EB /* Pods-ClimaCellAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimaCellAssignment;
+			};
+			name = Debug;
+		};
+		35A35D1D231D6BBC00511623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DDBA3DB6D3DACA8F90D0B0 /* Pods-ClimaCellAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = ClimaCellAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.ClimaCellAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimaCellAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35A35CE5231D6BB800511623 /* Build configuration list for PBXProject "ClimaCellAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A35D13231D6BBC00511623 /* Debug */,
+				35A35D14231D6BBC00511623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A35D15231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A35D16231D6BBC00511623 /* Debug */,
+				35A35D17231D6BBC00511623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A35D18231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A35D19231D6BBC00511623 /* Debug */,
+				35A35D1A231D6BBC00511623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A35D1B231D6BBC00511623 /* Build configuration list for PBXNativeTarget "ClimaCellAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A35D1C231D6BBC00511623 /* Debug */,
+				35A35D1D231D6BBC00511623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35A35CF4231D6BB800511623 /* ClimaCellAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35A35CF5231D6BB800511623 /* ClimaCellAssignment.xcdatamodel */,
+			);
+			currentVersion = 35A35CF5231D6BB800511623 /* ClimaCellAssignment.xcdatamodel */;
+			path = ClimaCellAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35A35CE2231D6BB800511623 /* Project object */;
+}

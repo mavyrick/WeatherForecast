@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClimaCellAssignment/Controllers/Services/GetCapitalData.swift"
+            timestampString = "589595489.711821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getCapitalData(completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClimaCellAssignment.GetCapitalData.getCapitalData(completed: (Swift.Array&lt;ClimaCellAssignment.Capital&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ClimaCellAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshsorokin/ClimaCell/ClimaCellAssignment/ClimaCellAssignment/Controllers/Services/GetCapitalData.swift"
+                  timestampString = "589590523.517253"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClimaCellAssignment.GetCapitalData.getCapitalData(completed: (Swift.Array&lt;ClimaCellAssignment.Capital&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ClimaCellAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshsorokin/ClimaCell/ClimaCellAssignment/ClimaCellAssignment/Controllers/Services/GetCapitalData.swift"
+                  timestampString = "589590523.519558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

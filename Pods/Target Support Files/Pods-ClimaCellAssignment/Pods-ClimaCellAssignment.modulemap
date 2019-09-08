@@ -1,0 +1,6 @@
+framework module Pods_ClimaCellAssignment {
+  umbrella header "Pods-ClimaCellAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
